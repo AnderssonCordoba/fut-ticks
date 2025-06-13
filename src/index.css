@@ -1,0 +1,8 @@
+.filter-tabs-sticky {
+  position: sticky;
+  top: 140px; /* ajusta esto según la altura de tu encabezado y nav */
+  z-index: 1010;
+  background-color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

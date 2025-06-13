@@ -1,0 +1,26 @@
+.encuentro-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+ /*  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); */
+  background-color: white;
+}
+
+.encuentro-card img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 1rem; 
+  margin-right: 1rem; 
+}
+
+.encuentro-card-nombres {
+  text-align: center;
+  font-weight: bold;
+  margin: 0 1rem;
+}

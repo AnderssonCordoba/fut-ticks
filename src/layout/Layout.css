@@ -1,0 +1,32 @@
+.layout-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.team-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #dee2e6;
+}
+
+.header-vs {
+  font-size: 1rem;
+}
+
+.layout-header-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1020; /* mayor que el nav de bootstrap */
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Asegúrate de que los escudos tengan tamaño adecuado */
+.team-icon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
